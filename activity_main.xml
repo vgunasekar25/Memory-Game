@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+<!--    <TableRow>-->
+<!--        <Space-->
+<!--            android:layout_width="10dp"-->
+<!--            android:layout_height="7dp" />-->
+<!--    </TableRow>-->
+
+    <TableRow>
+        <TextView
+            android:textSize="34dp"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:background="@drawable/title1"/>
+    </TableRow>
+
+    <TableRow>
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="10dp" />-->
+
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/one"
+            android:onClick="onClick"
+            android:background="@drawable/qmarks"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/two"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/three"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/four"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:text="" />
+
+
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/five"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/six"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/seven"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/eight"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/nine"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/ten"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/eleven"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/twelve"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:text="" />
+    </TableRow>
+
+    <TableRow>
+        <ImageButton
+            android:id="@+id/thirteen"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/fourteen"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/fifteen"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="" />
+
+        <ImageButton
+            android:id="@+id/sixteen"
+            android:background="@drawable/qmarks"
+            android:onClick="onClick"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:text="" />
+
+    </TableRow>
+
+<!--    <TableRow>-->
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+<!--    </TableRow>-->
+
+<!--    <TableRow>-->
+<!--        <Space-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="4dp"/>-->
+<!--    </TableRow>-->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="30dp" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/timeleft"
+            android:layout_width="200dp"
+            android:width="200dp"
+            android:text="                Time:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_weight="1"
+            android:textSize="30dp" />
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_start_pause"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_span="4"
+            android:layout_weight="1"
+            android:background="@drawable/start"/>
+<!--            android:text="START"/>-->
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="200dp"
+            android:layout_height="66dp"
+            android:textSize="30dp"
+            android:visibility="invisible" />
+
+    </TableRow>
+</TableLayout>
